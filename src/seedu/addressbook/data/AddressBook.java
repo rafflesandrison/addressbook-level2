@@ -54,6 +54,10 @@ public class AddressBook {
         allPersons.remove(toRemove);
     }
 
+    public void sortList() {
+        allPersons.sort();
+    }
+
     /**
      * Clears all persons and tags from the address book.
      */
