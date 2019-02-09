@@ -1,4 +1,4 @@
-package seedu.addressbook.commands;
+package java.seedu.addressbook.commands;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
@@ -13,6 +13,8 @@ import java.util.Set;
 
 import org.junit.Test;
 
+import seedu.addressbook.commands.AddCommand;
+import seedu.addressbook.commands.CommandResult;
 import seedu.addressbook.data.AddressBook;
 import seedu.addressbook.data.exception.IllegalValueException;
 import seedu.addressbook.data.person.Address;

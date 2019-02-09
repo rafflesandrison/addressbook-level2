@@ -1,4 +1,4 @@
-package seedu.addressbook.commands;
+package java.seedu.addressbook.commands;
 
 import static org.junit.Assert.assertEquals;
 
@@ -10,6 +10,10 @@ import java.util.Optional;
 
 import org.junit.Test;
 
+import seedu.addressbook.commands.Command;
+import seedu.addressbook.commands.CommandResult;
+import seedu.addressbook.commands.ViewAllCommand;
+import seedu.addressbook.commands.ViewCommand;
 import seedu.addressbook.common.Messages;
 import seedu.addressbook.data.AddressBook;
 import seedu.addressbook.data.person.Address;
